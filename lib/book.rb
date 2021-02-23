@@ -23,6 +23,14 @@ class Book
     @pages
   end
 
+  def genre=(genre)
+    @genre = genre
+  end
+
+  def genre
+    @genre
+  end
+
   
 
 
